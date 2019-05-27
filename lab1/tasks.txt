@@ -1,2 +1,4 @@
 Task 7
 ------
+Ran "git commit --amend" in order to edit last errored commit message.
+Got this command from "man git-commit".
