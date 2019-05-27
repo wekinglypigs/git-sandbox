@@ -2,3 +2,9 @@ Task 7
 ------
 Ran "git commit --amend" in order to edit last errored commit message.
 Got this command from "man git-commit".
+
+Task 8
+------
+(This was already done.)
+I uploaded my ssh public key, and use SSH urls for remote origin.
+
