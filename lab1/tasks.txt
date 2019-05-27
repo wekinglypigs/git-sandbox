@@ -18,3 +18,16 @@ Date:   Thu Jan 30 15:41:44 2014 +0900
 
 I found this via "git log | less" and used its search option.
 
+Task 10
+-------
+playboy:~/cs220/git-sandbox/lab1:154% git diff 
+diff --git a/lab1/README.md b/lab1/README.md
+index fa85f91..0ae0b15 100644
+--- a/lab1/README.md
++++ b/lab1/README.md
+@@ -1,2 +1,5 @@
+ Peggy Wilkins
+ mozart
++
++The quick brown fox jumped over the lazy dog.
++Happy Memorial Day holiday!
