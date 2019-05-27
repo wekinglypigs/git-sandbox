@@ -31,3 +31,8 @@ index fa85f91..0ae0b15 100644
 +
 +The quick brown fox jumped over the lazy dog.
 +Happy Memorial Day holiday!
+
+Task 11
+-------
+I ran "git rm tasks.txt".
+
