@@ -8,3 +8,13 @@ Task 8
 (This was already done.)
 I uploaded my ssh public key, and use SSH urls for remote origin.
 
+Task 9
+------
+commit c7e86ad4f1061b0cad9f64a6c9ad26f386bc1168
+Author: Junegunn Choi <junegunn.c@gmail.com>
+Date:   Thu Jan 30 15:41:44 2014 +0900
+
+    Add --no-mouse option to replace FZF_MOUSE_ENABLED
+
+I found this via "git log | less" and used its search option.
+
