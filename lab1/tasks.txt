@@ -36,3 +36,24 @@ Task 11
 -------
 I ran "git rm tasks.txt".
 
+Task 13
+-------
+I followed the hints in the "git bisect" man page for finding the first commit
+that introduced a fix:
+
+  git bisect start --term-new fixed --term-old broken
+
+I marked the latest version as "fixed" and the initial version as "broken".
+Eventually this procedure brought me to:
+
+% git bisect broken
+0bdae61f9900818fffd152ed1220110c120fa16d is the first fixed commit
+commit 0bdae61f9900818fffd152ed1220110c120fa16d
+Author: Arun Prakash Jana <engineerarun@gmail.com>
+Date:   Fri Jun 16 21:51:16 2017 +0530
+
+    Fix #12
+
+:100644 100644 cf5517471ac4fcf5c4a79a3f62fbad99d75bd859 64a35dae75cff5375fae91987a29cdb8a1b235de M      bcal.c
+
+I also checked out this version, and compiled and ran it to verify that the issue was fixed: it was!
